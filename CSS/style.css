@@ -1,0 +1,24 @@
+header {
+  background-color: #a765b8;
+  color: #ffffff;
+  font-family: "Vollkorn", serif;
+}
+
+section {
+  color: #6b1081;
+  font-family: "Mulish", sans-serif;
+}
+
+h2 {
+  background-color: #d89fe6;
+  color: #ffffff;
+  font-family: "Exo 2", sans-serif;
+}
+
+body {
+  background-color: #f4f8e6;
+}
+
+body a:link {
+  color: #6b1081;
+}
