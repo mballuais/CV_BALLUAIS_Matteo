@@ -1,14 +1,28 @@
+/*** Abastract ***/
+
+/*** Bases ***/
+*
+
+/* typo */
+body {
+  background-color: #f4f8e6;
+  max-width: 820px;
+  margin: auto;
+  border: 3px solid #6b1081;
+  border-radius: 20px;
+}
+
 header {
   background-color: #a765b8;
   color: #ffffff;
   font-family: "Vollkorn", serif;
+  max-width: 820px;
+  max-height: 400px;
+  margin: auto;
+  text-align: center;
 }
 
-section {
-  color: #6b1081;
-  font-family: "Mulish", sans-serif;
-}
-
+/* heading */
 h1 {
   font-size: clamp(2rem, 10vw, 3rem);
 }
@@ -20,12 +34,11 @@ h2 {
   border: 3px solid #6b1081;
 }
 
-body {
-  background-color: #f4f8e6;
-}
+/* List */
 
-body a:link {
+section {
   color: #6b1081;
+  font-family: "Mulish", sans-serif;
 }
 
 ul {
@@ -38,6 +51,30 @@ ul.liste {
   gap: 30px;
 }
 
+/* liens */
+body a:link {
+  color: #6b1081;
+}
+
+/**Layout**/
+
+.content {
+  display: flex;
+  gap: 1rem;
+  max-width: 820px;
+  margin: auto;
+}
+
+.col-1 {
+  flex: 70%;
+}
+
+.col-2 {
+  flex: 100%;
+}
+
+/* Icon */
+
 ul.list-icon {
   list-style: none;
   padding-inline-start: 1rem;
@@ -49,4 +86,12 @@ li.tel:before {
 
 li.mail:before {
   content: "📧";
+}
+
+li.basketball:before {
+  content: "🏀";
+}
+
+li.voyage:before {
+  content: "✈️";
 }
