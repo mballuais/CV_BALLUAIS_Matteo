@@ -17,6 +17,7 @@ h2 {
   background-color: #d89fe6;
   color: #6b1081;
   font-family: "Exo 2", sans-serif;
+  border: 3px solid #6b1081;
 }
 
 body {
