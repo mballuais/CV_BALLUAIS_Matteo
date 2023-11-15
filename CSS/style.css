@@ -95,3 +95,23 @@ li.basketball:before {
 li.voyage:before {
   content: "✈️";
 }
+
+/* Ajout de l'animation */
+
+h1,h2,a {
+  transition: color 0.3s ease-in-out;
+}
+
+h1:hover,h2:hover,a:hover {
+  color: #f4f8e6; 
+  background-color: #6b1081; }
+
+
+.list-icon li a {
+  transition: color 0.3s ease-in-out;
+}
+
+
+.list-icon li a:hover {
+  color: #d89fe6; }
+
