@@ -5,7 +5,7 @@
 
 /* typo */
 body {
-  background-color: #f4f8e6;
+  background-color: #D0EAFB;
   max-width: 820px;
   margin: auto;
   border: 3px solid #213B7D;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  background-color: #D0EAFB;
+  background-color: #ffffff;
   color: #213B7D;
   font-family: "Exo 2", sans-serif;
   border: 3px solid #213B7D;
@@ -104,7 +104,7 @@ h2{
 }
 
 h2:hover {
-  color: #f4f8e6; 
+  color: #ffffff; 
   background-color: #213B7D; }
 
 
