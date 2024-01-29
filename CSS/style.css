@@ -8,12 +8,12 @@ body {
   background-color: #f4f8e6;
   max-width: 820px;
   margin: auto;
-  border: 3px solid #6b1081;
+  border: 3px solid #213B7D;
   border-radius: 20px;
 }
 
 header {
-  background-color: #a765b8;
+  background-color: #213B7D;
   color: #ffffff;
   font-family: "Vollkorn", serif;
   max-width: 820px;
@@ -28,17 +28,17 @@ h1 {
 }
 
 h2 {
-  background-color: #d89fe6;
-  color: #6b1081;
+  background-color: #D0EAFB;
+  color: #213B7D;
   font-family: "Exo 2", sans-serif;
-  border: 3px solid #6b1081;
+  border: 3px solid #213B7D;
   padding-left:10px;
 }
 
 /* List */
 
 section {
-  color: #6b1081;
+  color: #213B7D;
   font-family: "Mulish", sans-serif;
 }
 
@@ -54,7 +54,7 @@ ul.liste {
 
 /* liens */
 body a:link {
-  color: #6b1081;
+  color: #213B7D;
 }
 
 /**Layout**/
@@ -105,7 +105,7 @@ h2{
 
 h2:hover {
   color: #f4f8e6; 
-  background-color: #6b1081; }
+  background-color: #213B7D; }
 
 
 .list-icon li a {
@@ -114,5 +114,5 @@ h2:hover {
 
 
 .list-icon li a:hover {
-  color: #d89fe6; }
+  color: #D0EAFB; }
 
